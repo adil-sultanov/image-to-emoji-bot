@@ -15,7 +15,7 @@ from google.cloud import vision
 from google.cloud.vision_v1 import types
 
 bot = telebot.TeleBot(config.TOKEN)
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'image-to-emoji-a36cbd5e51ba.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'XXXXXXXX'
 client = vision.ImageAnnotatorClient()
 
 feedback_list = {}
