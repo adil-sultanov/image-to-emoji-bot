@@ -6,15 +6,15 @@ Telegram bot that can suggest emojis by photo sent using Google Cloud Vision API
 Go to https://t.me/imagetoemoji_bot and type /start to begin.
 
 ## How to setup your own bot copy
-Download files and place them in the same folder. Install following python libraries:
+Download project files and place them in the same folder. Install following python libraries:
 
 ```
 google-cloud-vision
 pyTelegramBotAPI
 requests
 ```
- Change **TOKEN** variable value in _config.py_ to your telegram bot token and run _main.py_. 
 
+Go to https://console.cloud.google.com/. Create project, enable API and create credentials. Download credentials key file (.json) and place it in the folder with other project files. Change values of **Google_credentials_key** and **TOKEN** variables in _config.py_ to your credentials key and telegram bot token, respectively. Run _main.py_.
 
 
 ## Contacts
