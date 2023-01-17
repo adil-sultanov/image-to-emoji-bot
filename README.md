@@ -16,6 +16,8 @@ requests
 
 Go to https://console.cloud.google.com/. Create project, enable API and create credentials. Download credentials key file (.json) and place it in the folder with other project files. Change values of **Google_credentials_key** and **TOKEN** variables in _config.py_ to your credentials key and telegram bot token, respectively. Run _main.py_.
 
+_Optional_. Change **feedback_chatID** variable value to your convinient telegram chat ID if you want to enable feedbacks (see /feedback_mode). 
+
 
 ## Contacts
 Telegram: https://t.me/vonatlus
