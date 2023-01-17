@@ -106,8 +106,11 @@ def query(message):
     bot.send_message(message.chat.id, final_message)  
     
     if message.chat.id in feedback_list.keys() and feedback_list[message.chat.id] == True:
-        feedback(message.chat.id)   
-
+        try:
+            feedback(message.chat.id)   
+        except:
+            pass
+        
 #begin of feedback part
 def feedback(chatID):
     markup = telebot.types.InlineKeyboardMarkup(row_width = 3)
